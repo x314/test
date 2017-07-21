@@ -1,0 +1,422 @@
+@font-face {
+  font-family: 'Zizou Slab FC Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Zizou Slab FC Medium'), url('../fonts/zizou-slab-fc-medium-58956fe60ec87.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue LT Std 57 Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue LT Std 57 Condensed'), url('../fonts/HelveticaNeueLTStd-Cn.woff') format('woff');
+}
+
+html {
+  font-family: 'Helvetica Neue LT Std 57 Condensed';
+}
+
+header {
+  background: url(../images/header.jpg) center no-repeat;
+  background-size: cover;
+  height: 585px;
+}
+
+nav {
+  box-shadow: none;
+}
+
+nav a.button-collapse {
+  margin: 3.3% 0 0 0;
+  display: inline;
+}
+
+nav a.button-collapse i {
+  font-size: 4.7rem;
+  color: white;
+  line-height: normal;
+}
+
+nav.transparent {
+  background-color: transparent !important;
+}
+
+.nav-wrapper {
+  padding-top: 4%;
+}
+
+h1 {
+  color: white;
+  font-size: 3.4em;
+  margin: 197px 0 0 29px;
+  font-family: 'Zizou Slab FC Medium';
+}
+
+h1 span {
+  display: block;
+  width: 57px;
+  height: 5px;
+  /*background-color: red;*/
+}
+
+p {
+  font-size: 2rem;
+  color: #1f8ffa;
+}
+
+.margin-h {
+  margin: 0 auto;
+}
+
+.section {
+  border: 1px solid #b8b8b8;
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+}
+
+.input-field {
+  /*border: 1px solid #b8b8b8;*/
+  /*margin-top: 0;*/
+}
+
+.input-field label {
+  text-transform: uppercase;
+  color: #b9b9b9;
+  font-size: 18px;
+  /*position: inherit;
+  left: 0 !important;*/
+}
+
+input[type=text]:not(.browser-default) {
+  font-size: 25px;
+  color: #5b5b5b;
+  margin-bottom: 0;
+}
+
+.not-padding {
+  padding: 0 !important;
+}
+
+.not-border {
+  border: 0 !important;
+}
+
+.modality .card-panel {
+  border: 1px solid #b8b8b8;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.modality .card-panel span {
+  font-size: 1.43rem;
+}
+
+.modality .card-panel span.title {
+  font-size: 2rem;
+  display: block;
+}
+
+.modality .card-panel.checked {
+  border: 3px solid #1f8ffa;
+}
+
+.careers .card-panel {
+  background-color: #f8f8f8;
+  border: 1px solid #b8b8b8;
+  box-shadow: none;
+  height: 219px;
+  padding: 40px 15px;
+}
+
+.careers .card-panel span {
+  display: block;
+  font-size: 1.43rem;
+  line-height: 1.5rem;
+}
+
+.careers .card-panel .icon {
+  height: 70px;
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat;
+  margin: 0 auto 20px auto;
+}
+
+.careers .card-panel .icon01 {
+  width: 69px;
+  background-position: -4px 0;
+}
+
+.careers .card-panel .icon02 {
+  width: 72px;
+  background-position: -229px -1px;
+}
+
+.careers .card-panel .icon03 {
+  width: 66px;
+  background-position: -460px -2px;
+}
+
+.careers .card-panel .icon04 {
+  width: 72px;
+  background-position: -3px -229px;
+}
+
+.careers .card-panel .icon05 {
+  width: 67px;
+  background-position: -232px -229px;
+}
+
+.careers .card-panel .icon06 {
+  width: 77px;
+  background-position: -453px -226px;
+}
+
+.careers .card-panel .icon07 {
+  width: 63px;
+  background-position: -6px -456px;
+}
+
+.careers .card-panel .icon08 {
+  width: 57px;
+  background-position: -237px -456px;
+}
+
+.careers .card-panel .icon09 {
+  width: 79px;
+  background-position: -452px -453px;
+}
+
+.careers .card-panel .icon10 {
+  width: 76px;
+  background-position: 0 -683px;
+}
+
+.careers .card-panel .icon11 {
+  width: 72px;
+  background-position: -230px -686px;
+}
+
+.careers .card-panel .icon12 {
+  width: 67px;
+  background-position: -459px -682px;
+}
+
+.careers .card-panel .icon13 {
+  width: 52px;
+  background-position: -12px -910px;
+}
+
+.careers .card-panel .icon14 {
+  width: 72px;
+  background-position: -229px -910px;
+}
+
+.careers .card-panel .icon15 {
+  width: 74px;
+  background-position: -445px -910px;
+}
+
+.careers .card-panel .icon16 {
+  width: 58px;
+  background-position: -7px -1142px;
+}
+
+.careers .card-panel .icon17 {
+  width: 85px;
+  background-position: -223px -1137px;
+}
+
+.careers .card-panel .icon18 {
+  width: 82px;
+  background-position: -451px -1136px;
+}
+
+.careers .card-panel .icon19 {
+  width: 57px;
+  background-position: -10px -1365px;
+}
+
+.careers .card-panel .icon20 {
+  width: 79px;
+  background-position: -226px -1364px;
+}
+
+.careers .card-panel .icon21 {
+  width: 106px;
+  background-position: -439px -1362px;
+}
+
+.careers .card-panel .icon22 {
+  width: 71px;
+  background-position: -4px -1591px;
+}
+
+.careers .card-panel .icon23 {
+  width: 60px;
+  background-position: -236px -1591px;
+}
+
+.careers .card-panel .icon24 {
+  width: 69px;
+  background-position: -458px -1589px;
+}
+
+.careers .card-panel .icon25 {
+  width: 74px;
+  background-position: -1px -1819px;
+}
+
+.careers .card-panel .icon26 {
+  width: 71px;
+  background-position: -230px -1818px;
+}
+
+.careers .card-panel .icon27 {
+  width: 50px;
+  background-position: -467px -1816px;
+}
+
+.careers .card-panel .icon28 {
+  width: 68px;
+  background-position: -4px -2043px;
+}
+
+.careers .card-panel .icon29 {
+  width: 73px;
+  background-position: -229px -2043px;
+}
+
+.careers .card-panel .icon30 {
+  width: 72px;
+  background-position: -457px -2043px;
+}
+
+.careers .card-panel .icon31 {
+  width: 64px;
+  background-position: -6px -2270px;
+}
+
+.careers .card-panel .icon32 {
+  width: 43px;
+  background-position: -244px -2270px;
+}
+
+.careers .card-panel .icon33 {
+  width: 70px;
+  background-position: -456px -2269px;
+}
+
+.careers .card-panel .icon34 {
+  width: 66px;
+  background-position: -5px -2500px;
+}
+
+.careers .card-panel .icon35 {
+  width: 69px;
+  background-position: -231px -2500px;
+}
+
+.careers .card-panel .icon36 {
+  width: 61px;
+  background-position: -461px -2500px;
+}
+
+.careers .card-panel .icon37 {
+  width: 57px;
+  background-position: -10px -2726px;
+}
+
+.careers .card-panel .icon38 {
+  width: 55px;
+  background-position: -237px -2728px;
+}
+
+.careers .card-panel .icon39 {
+  width: 65px;
+  background-position: -459px -2726px;
+}
+
+.careers .card-panel .icon40 {
+  width: 53px;
+  background-position: -12px -2951px;
+}
+
+.careers .card-panel .icon41 {
+  width: 64px;
+  background-position: -234px -2951px;
+}
+
+.careers .card-panel .icon42 {
+  width: 67px;
+  background-position: -459px -2951px;
+}
+
+.careers .card-panel .icon43 {
+  width: 66px;
+  background-position: -5px -3181px;
+}
+
+.terms {
+  padding: 40px 53px;
+}
+
+.terms label {
+  font-size: 1.43rem;
+  color: #333333;
+}
+
+.terms label span {
+  font-size: 2rem;
+  display: block;
+}
+
+.terms label a {
+  text-decoration: underline;
+}
+
+[type="checkbox"]+label {
+  padding-left: 90px;
+}
+
+[type="checkbox"].filled-in:not(:checked)+label:after {
+  width: 46px;
+  height: 46px;
+}
+
+[type="checkbox"].filled-in:checked+label:before {
+  left: 5px;
+  top: 5px;
+  width: 15px;
+  height: 30px;
+}
+
+[type="checkbox"].filled-in:checked+label:after {
+  width: 46px;
+  height: 46px;
+}
+
+a.btn {
+  font-size: 2rem;
+  height: 75px;
+  line-height: 75px;
+}
+
+.brand {
+  position: absolute;
+  color: #000000;
+  display: inline-block;
+  padding: 0;
+  right: 0;
+  /*left: 0;*/
+  /*width: 100%;*/
+  text-align: center;
+  z-index: 0;
+  font-size: 1.24rem;
+  line-height: 1.804rem;
+  margin: 1.2rem 0.8rem 0.656rem 0;
+  text-transform: uppercase;
+  background: url(../images/brand.png) center no-repeat;
+  width: 78px;
+  height: 78px;
+}

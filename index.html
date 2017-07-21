@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UPC Admisión Móvil</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <header>
+      <div class="container">
+        <nav class="transparent" role="navigation">
+          <div class="nav-wrapper">
+
+            <ul id="nav-mobile" class="side-nav">
+              <li><a href="./">Inicio</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+            </ul>
+
+            <a href="#" data-activates="nav-mobile" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+            <a href="#" class="brand"></a>
+
+          </div>
+        </nav>
+        <h1>Editar perfil <span class="red"></span></h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m4">
+            <img src="images/avatar.png" alt="Alex Villanueva Mercado" class="margin-h">
+          </div>
+          <div class="col s12 m8">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Nombres</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Apellido Paterno</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m4">
+            <select>
+              <option value="" disabled selected>Elija una opción</option>
+              <option value="1">Masculino</option>
+              <option value="2">Femenino</option>
+            </select>
+            <label>Género</label>
+          </div>
+          <div class="input-field col s12 m8">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Apellido Materno</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <select>
+              <option value="" disabled selected>Elija una opción</option>
+              <option value="1">Peruana</option>
+              <option value="2">Argentina</option>
+              <option value="3">Colombiana</option>
+            </select>
+            <label>Nacionalidad</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <select>
+          <option value="" disabled selected>Elija una opción</option>
+          <option value="1">Carnet de Extranjería</option>
+          <option value="2">Documento de Identidad</option>
+        </select>
+            <label>Tipo de documento</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Número de documento</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="row">
+          <div class="input-field col s12">
+            <!-- <input id="last_name" type="text" class="validate"> -->
+            <input type="date" class="datepicker">
+            <label for="last_name">Fecha de nacimiento</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Número de celular/contacto</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Correo electrónico</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="row">
+          <div class="input-field col s12">
+            <select>
+          <option value="" disabled selected>Elija una opción</option>
+          <option value="1">Peruana</option>
+          <option value="2">Argentina</option>
+          <option value="3">Colombiana</option>
+        </select>
+            <label>Selecciona tu colegio</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <select>
+          <option value="" disabled selected>Elija una opción</option>
+          <option value="1">Carnet de Extranjería</option>
+          <option value="2">Documento de Identidad</option>
+        </select>
+            <label>Sede</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <select>
+          <option value="" disabled selected>Elija una opción</option>
+          <option value="1">Carnet de Extranjería</option>
+          <option value="2">Documento de Identidad</option>
+        </select>
+            <label>¿En qué año te encuentras?</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="section modality not-padding not-border">
+        <h4>Modalidad de admisión</h4>
+        <p>¿Qué modalidad de admisión perteneces?</p>
+        <div class="row">
+          <div class="col s12">
+            <div class="card-panel">
+              <span class="title">Admisión preferente</span>
+              <span class="">Si en el colegio obtuviste un promedio mayor o igual a 15.</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <div class="card-panel">
+              <span class="title">Admisión regular</span>
+              <span class="">Si estás en 5to o ya terminaste el colegio y estás listo para postular.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section careers not-padding not-border">
+        <h4>Carreras de interés</h4>
+        <p>Selecciona hasta 4 carreras de interés</p>
+        <div class="row">
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon01"></span>
+              <span class="center">ADMINISTRACIÓN Y AGRONEGOCIOS</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon02"></span>
+              <span class="center">ADMINISTRACIÓN Y FINANZAS</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon03"></span>
+              <span class="center">ADMINISTRACIÓN Y GERENCIA DEL EMPRENDIMIENTO</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon04"></span>
+              <span class="center">ADMINISTRACIÓN Y MARKETING</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon05"></span>
+              <span class="center">ADMINISTRACIÓN Y NEGOCIOS DEL DEPORTE</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon06"></span>
+              <span class="center">ADMINISTRACIÓN Y NEGOCIOS INTERNACIONALES</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon07"></span>
+              <span class="center">ADMINISTRACIÓN Y RECURSOS HUMANOS</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon08"></span>
+              <span class="center">ARQUITECTURA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon09"></span>
+              <span class="center">ARTES ESCÉNICAS</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon10"></span>
+              <span class="center">CIENCIAS DE LA COMPUTACIÓN</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon11"></span>
+              <span class="center">COMUNICACIÓN AUDIOVISUAL Y MEDIOS INTERACTIVOS</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon12"></span>
+              <span class="center">COMUNICACIÓN E IMAGEN EMPRESARIAL</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon13"></span>
+              <span class="center">COMUNICACIÓN Y MARKETING</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon14"></span>
+              <span class="center">COMUNICACIÓN Y PERIODISMO</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon15"></span>
+              <span class="center">COMUNICACIÓN Y PUBLICIDAD</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon16"></span>
+              <span class="center">CONTABILIDAD Y ADMINISTRACIÓN</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon17"></span>
+              <span class="center">DERECHO</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon18"></span>
+              <span class="center">DISEÑO PROFESIONAL DE INTERIORES</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon19"></span>
+              <span class="center">DISEÑO PROFESIONAL GRÁFICO</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon20"></span>
+              <span class="center">DISEÑO Y GESTIÓN EN MODA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon21"></span>
+              <span class="center">ECONOMÍA GERENCIAL</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon22"></span>
+              <span class="center">ECONOMÍA Y FINANZAS</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon23"></span>
+              <span class="center">ECONOMÍA Y NEGOCIOS INTERNACIONALES</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon24"></span>
+              <span class="center">EDUCACIÓN Y GESTIÓN DEL APRENDIZAJE</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon25"></span>
+              <span class="center">GASTRONOMÍA Y GESTIÓN CULINARIA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon26"></span>
+              <span class="center">HOTELERÍA Y ADMINISTRACIÓN</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon27"></span>
+              <span class="center">INGENIERÍA AMBIENTAL</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon28"></span>
+              <span class="center">INGENIERÍA CIVIL</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon29"></span>
+              <span class="center">INGENIERÍA DE GESTIÓN EMPRESARIAL</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon30"></span>
+              <span class="center">INGENIERÍA DE GESTIÓN MINERA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon31"></span>
+              <span class="center">INGENIERÍA DE SISTEMAS DE INFORMACIÓN</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon32"></span>
+              <span class="center">INGENIERÍA DE SOFTWARE</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon33"></span>
+              <span class="center">INGENIERÍA ELECTRÓNICA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon34"></span>
+              <span class="center">INGENIERÍA INDUSTRIAL</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon35"></span>
+              <span class="center">INGENIERÍA MECATRÓNICA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon36"></span>
+              <span class="center">MEDICINA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon37"></span>
+              <span class="center">MÚSICA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon38"></span>
+              <span class="center">NUTRICIÓN Y DIETÉTICA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon39"></span>
+              <span class="center">ODONTOLOGÍA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon40"></span>
+              <span class="center">PSICOLOGÍA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon41"></span>
+              <span class="center">TERAPIA FÍSICA</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon42"></span>
+              <span class="center">TRADUCCIÓN E INTERPRETACIÓN PROFESIONAL</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card-panel">
+              <span class="icon icon43"></span>
+              <span class="center">TURISMO E ADMINISTRACIÓN</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="section terms">
+        <div class="col s12">
+          <input type="checkbox" class="filled-in" id="filled-in-box" />
+          <label for="filled-in-box">
+            <span class="">Términos y condiciones</span>
+            He leído y acepto los <a href="#">términos y condiciones.</a>
+          </label>
+        </div>
+      </div>
+
+      <div class="section not-padding not-border">
+        <div class="row">
+          <div class="col s12">
+            <a class="waves-effect waves-light btn btn-large grey darken-4 col s12">reiniciar</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <a class="waves-effect waves-light btn btn-large red col s12">finalizar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/applications.js"></script>
+
+</body>
+
+</html>
